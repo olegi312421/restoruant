@@ -1332,8 +1332,7 @@
     "model": "sessions.session",
     "pk": "157og5o4xhqb7y68ateat9gtcghso9jw",
     "fields": {
-        "session_data": ".eJxVjDkOwjAUBe_iGllxvFPScwbrbyYBlEhxUiHuDpFSQPtm5r1UgW0dytZkKSOrs8rq9Lsh0EOmHfAdptusaZ7WZUS9K_qgTV9nluflcP8OBmjDtxbr-4SOrY0kvgPXe0-Ru5CDxBjZeJMZiCxCMJVrxiqYXEomOupNVe8P4pg4Fg:1pahpM:8eW9JPQNJ_Tzx34Co3SbM7F5
-OvtSg_TNFSWUTiC-UnM",
+        "session_data": ".eJxVjDkOwjAUBe_iGllxvFPScwbrbyYBlEhxUiHuDpFSQPtm5r1UgW0dytZkKSOrs8rq9Lsh0EOmHfAdptusaZ7WZUS9K_qgTV9nluflcP8OBmjDtxbr-4SOrY0kvgPXe0-Ru5CDxBjZeJMZiCxCMJVrxiqYXEomOupNVe8P4pg4Fg:1pahpM:8eW9JPQNJ_Tzx34Co3SbM7F5OvtSg_TNFSWUTiC-UnM",
         "expire_date": "2023-03-24T18:50:52.437Z"
     }
 },
@@ -1341,8 +1340,7 @@ OvtSg_TNFSWUTiC-UnM",
     "model": "sessions.session",
     "pk": "26a004t00k680n2f81561hzeui0v0djm",
     "fields": {
-        "session_data": ".eJxVjDsOwjAQBe_iGlmx4_hDSZ8zWGvvLg6gRIqTCnF3HCkFtDPz3ltE2LcS90prnFBchRKXX5YgP2k-BD5gvi8yL_O2TkkeiTxtleOC9Lqd7d9BgVra2uqU0QUXPFtmrRUR9wFy4x0QMrneoiM_aPYGCQeEnrJJoWnTsRKfLw1iOTI:1pXiJt:uKicJscF5y8NicEg-RJ_LbQ
-I5tQ4qotTDKhyErGF6l8",
+        "session_data": ".eJxVjDsOwjAQBe_iGlmx4_hDSZ8zWGvvLg6gRIqTCnF3HCkFtDPz3ltE2LcS90prnFBchRKXX5YgP2k-BD5gvi8yL_O2TkkeiTxtleOC9Lqd7d9BgVra2uqU0QUXPFtmrRUR9wFy4x0QMrneoiM_aPYGCQeEnrJJoWnTsRKfLw1iOTI:1pXiJt:uKicJscF5y8NicEg-RJ_LbQI5tQ4qotTDKhyErGF6l8",
         "expire_date": "2023-03-16T12:46:01.155Z"
     }
 },
@@ -1350,8 +1348,7 @@ I5tQ4qotTDKhyErGF6l8",
     "model": "sessions.session",
     "pk": "7wq5k95xxk9uel7xhwi7rgg4xyi4s0bc",
     "fields": {
-        "session_data": ".eJxVjDsOwjAQBe_iGlmx4_hDSZ8zWGvvLg6gRIqTCnF3HCkFtDPz3ltE2LcS90prnFBchRKXX5YgP2k-BD5gvi8yL_O2TkkeiTxtleOC9Lqd7d9BgVra2uqU0QUXPFtmrRUR9wFy4x0QMrneoiM_aPYGCQeEnrJJoWnTsRKfLw1iOTI:1pXKdk:4jxDz2KTrdWqOeMFK9u41fE
-HUKCz_lYkC_uhH4FqT-o",
+        "session_data": ".eJxVjDsOwjAQBe_iGlmx4_hDSZ8zWGvvLg6gRIqTCnF3HCkFtDPz3ltE2LcS90prnFBchRKXX5YgP2k-BD5gvi8yL_O2TkkeiTxtleOC9Lqd7d9BgVra2uqU0QUXPFtmrRUR9wFy4x0QMrneoiM_aPYGCQeEnrJJoWnTsRKfLw1iOTI:1pXKdk:4jxDz2KTrdWqOeMFK9u41fEHUKCz_lYkC_uhH4FqT-o",
         "expire_date": "2023-03-15T11:28:56.487Z"
     }
 },
@@ -1359,8 +1356,7 @@ HUKCz_lYkC_uhH4FqT-o",
     "model": "sessions.session",
     "pk": "b732vp8kytpfc8fn333ot37joq1t2fae",
     "fields": {
-        "session_data": ".eJxVjDsOwjAQBe_iGlmx4_hDSZ8zWGvvLg6gRIqTCnF3HCkFtDPz3ltE2LcS90prnFBchRKXX5YgP2k-BD5gvi8yL_O2TkkeiTxtleOC9Lqd7d9BgVra2uqU0QUXPFtmrRUR9wFy4x0QMrneoiM_aPYGCQeEnrJJoWnTsRKfLw1iOTI:1pTKRl:uZaOHQVleKIfDKEuqFaBseL
-j97fc0LONBfSMkdFNZdg",
+        "session_data": ".eJxVjDsOwjAQBe_iGlmx4_hDSZ8zWGvvLg6gRIqTCnF3HCkFtDPz3ltE2LcS90prnFBchRKXX5YgP2k-BD5gvi8yL_O2TkkeiTxtleOC9Lqd7d9BgVra2uqU0QUXPFtmrRUR9wFy4x0QMrneoiM_aPYGCQeEnrJJoWnTsRKfLw1iOTI:1pTKRl:uZaOHQVleKIfDKEuqFaBseLj97fc0LONBfSMkdFNZdg",
         "expire_date": "2023-03-04T10:28:01.821Z"
     }
 },
@@ -1368,8 +1364,7 @@ j97fc0LONBfSMkdFNZdg",
     "model": "sessions.session",
     "pk": "cfiw2v4ia76wyny719ik8fbxholjhyfu",
     "fields": {
-        "session_data": ".eJxVjDsOwjAQBe_iGlmx4_hDSZ8zWGvvLg6gRIqTCnF3HCkFtDPz3ltE2LcS90prnFBchRKXX5YgP2k-BD5gvi8yL_O2TkkeiTxtleOC9Lqd7d9BgVra2uqU0QUXPFtmrRUR9wFy4x0QMrneoiM_aPYGCQeEnrJJoWnTsRKfLw1iOTI:1pUAxc:YRgpjzOHrnfaA7iALKOEdYI
-xxZA2XbAKYk964ze1h5w",
+        "session_data": ".eJxVjDsOwjAQBe_iGlmx4_hDSZ8zWGvvLg6gRIqTCnF3HCkFtDPz3ltE2LcS90prnFBchRKXX5YgP2k-BD5gvi8yL_O2TkkeiTxtleOC9Lqd7d9BgVra2uqU0QUXPFtmrRUR9wFy4x0QMrneoiM_aPYGCQeEnrJJoWnTsRKfLw1iOTI:1pUAxc:YRgpjzOHrnfaA7iALKOEdYIxxZA2XbAKYk964ze1h5w",
         "expire_date": "2023-03-06T18:32:24.412Z"
     }
 },
@@ -1377,8 +1372,7 @@ xxZA2XbAKYk964ze1h5w",
     "model": "sessions.session",
     "pk": "dey75gmwixosqt4d7vlkb7hawbb3m63v",
     "fields": {
-        "session_data": ".eJxVjDkOwjAUBe_iGllxvFPScwbrbyYBlEhxUiHuDpFSQPtm5r1UgW0dytZkKSOrs8rq9Lsh0EOmHfAdptusaZ7WZUS9K_qgTV9nluflcP8OBmjDtxbr-4SOrY0kvgPXe0-Ru5CDxBjZeJMZiCxCMJVrxiqYXEomOupNVe8P4pg4Fg:1paimJ:BlBkQ4kpiQX8nrPY1rAFXlRr
-yuU2xnLZ5qCQvO3XRg0",
+        "session_data": ".eJxVjDkOwjAUBe_iGllxvFPScwbrbyYBlEhxUiHuDpFSQPtm5r1UgW0dytZkKSOrs8rq9Lsh0EOmHfAdptusaZ7WZUS9K_qgTV9nluflcP8OBmjDtxbr-4SOrY0kvgPXe0-Ru5CDxBjZeJMZiCxCMJVrxiqYXEomOupNVe8P4pg4Fg:1paimJ:BlBkQ4kpiQX8nrPY1rAFXlRryuU2xnLZ5qCQvO3XRg0",
         "expire_date": "2023-03-24T19:51:47.331Z"
     }
 },
@@ -1532,8 +1526,7 @@ yuU2xnLZ5qCQvO3XRg0",
         "title": "Яловичий шашлик Кофка з цацікі",
         "is_visible": true,
         "position": 5,
-        "desc": "Яловичий шашлик Кофка - це страва зі смачними кусками яловичини, які насичені ароматними спеціями і запечені на вугіллі. Подається з цацікі - свіжим соусом з йогурту, зеленого огірка, м'яти та інших трав. Ця страва
-популярна на Близькому Сході та в Середн",
+        "desc": "Яловичий шашлик Кофка - це страва зі смачними кусками яловичини, які насичені ароматними спеціями і запечені на вугіллі. Подається з цацікі - свіжим соусом з йогурту, зеленого огірка, м'яти та інших трав. Ця стравапопулярна на Близькому Сході та в Середн",
         "ingredients": "Баранина  Вино  Масло",
         "category": 2,
         "recommended": true,
