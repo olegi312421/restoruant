@@ -1,0 +1,76 @@
+<section id="menu">
+  <div class="container">
+    <header class="text-center mb-5">
+      <h2 class="handwriting-text">Our food menu</h2>
+      <h5 class="text-uppercase text-gray-500 fw-normal">Our most popular menu</h5>
+    </header>
+    <div class="bg-light p-1 mb-5">
+      <ul class="nav nav-pills justify-content-center border border-2 border-white p-3" id="foodMenu" role="tablist">
+        {% for item in category %}
+        {% if forloop.first %}
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-uppercase active" id="{{ item.title }}-tab" data-bs-toggle="tab" data-bs-target="#{{ item.title }}" type="button" role="tab" aria-controls="{{ item.title }}" aria-selected="true">{{ item.title }}</button>
+        </li>
+        {% else %}
+        <li class="nav-item" role="presentation">
+          <button class="nav-link text-uppercase" id="{{ item.title }}-tab" data-bs-toggle="tab" data-bs-target="#{{ item.title }}" type="button" role="tab" aria-controls="{{ item.title }}" aria-selected="false">{{ item.title }}</button>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="tab-content" id="foodMenuContent">
+      {% for item in category %}
+      <div class="tab-pane fade {% if forloop.first %}show active{% endif %}" id="{{ item.title }}" role="tabpanel" aria-labelledby="{{ item.title }}-tab">
+        <div class="row justify-content-center">
+          {% for product in menu %}
+          {% if product.category == item %}
+          <div class="col-md-6">
+            <div class="py-4 border-bottom {% if product.recommended %}recommended{% endif %}">
+              <div class="d-flex justify-content-between">
+                <div class="me-3 py-1">
+                  <h5 class="fw-light">{{ product.title }}</h5>
+                  <p class="small mb-0 text-gray-600">{{ product.ingredients }}</p>
+                  {% if product.recommended %}
+                  <div class="recommended-label">
+                    <p class="text-uppercase small mb-0">RECOMMENDED</p>
+                  </div>
+                  {% endif %}
+                </div>
+                <div class="text-end py-1">
+                  {% if product.recommended %}
+                  <div class="recommended-price">
+                    <strong class="price-formatted text-primary">{{ product.price }}</strong>
+                  </div>
+                  {% else %}
+                  <strong class="price-formatted text-primary">{{ product.price }}</strong>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<style>
+  .recommended {
+    border: 2px solid #f8d7da;
+    background-color: #f8d7da;
+  }
+
+  .recommended .price-formatted {
+    color: #dc3545;
+  }
+
+  .recommended .recommended-text {
+    margin-top: -1rem;
+    margin-right: -1rem;
+    padding: 0.5rem 1rem;
+    border-top-right-radius: 0.25rem;
+  }
+</style>

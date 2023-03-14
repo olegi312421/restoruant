@@ -1,0 +1,19 @@
+<!-- Services Section-->
+    <section id="services">
+      <div class="container text-center">
+        <header class="mb-5">
+          <h2 class="handwriting-text">We provide the following</h2>
+          <h5 class="text-uppercase text-gray-500 fw-normal">Our Specialities</h5>
+        </header>
+        <div class="row gy-4">
+          <!-- item-->
+          {% for item in services %}
+          <div class="hover-icon-primary col-md-4">
+            <h5 class="text-uppercase">{{ item.title }}</h5>
+            <p class="mb-0 text-muted">{{ item.about }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section-->

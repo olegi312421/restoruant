@@ -1,0 +1,16 @@
+{% extends 'index.html' %} {% load static %}
+
+{% block content %}
+<div class="col-md-10 col-md-offset-1">
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post">
+                <h3>Вхід</h3>
+                {% csrf_token %}
+                {{form.as_p}}
+              <input type="submit" value="OK">
+            </form>
+          </div>
+        </div>
+    </div>
+{% endblock %}
