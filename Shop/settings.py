@@ -82,12 +82,20 @@ WSGI_APPLICATION = 'Shop.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    'default':{
+        'DB_NAME': DB_NAME,
+        'DB_PASSWORD': DB_PASSWORD,
+        'DB_USER': DB_USER,
+        'DB_HOST': DB_HOST,
+        'DB_PORT': DB_PORT,
     }
 }
+
+import dj_database_url
+db = dj_database_url.config()
+DATABASES['default'].update(db)
 
 
 # Password validation
