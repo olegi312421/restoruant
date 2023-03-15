@@ -31,7 +31,7 @@ DB_PORT = os.environ.get('DB_PORT')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['restoran.herokuapp.com']
+ALLOWED_HOSTS = ['italion-rustoran.herokuapp.com']
 
 
 # Application definition
