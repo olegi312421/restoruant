@@ -14,7 +14,7 @@
                   <div class="icon icon-md bg-primary border border-primary">
                     <h6 class="text-white mb-0 lh-1 text-uppercase">{{ item.discount }}% <br> off</h6>
                   </div>
-                </div><img class="img-fluid d-block mx-auto mb-3 mt-4" src={{ item.photo.url }} alt="Dish Name" width="200">
+                </div><img class="img-fluid d-block mx-auto mb-3 mt-4" src={{ item.photo.url }} alt="{{ item.title }}" width="200">
                 <h5 class="text-uppercase">{{ item.title }} </h5>
                 <ul class="list-unstyled mb-0">
                   <li class="text-primary lead price text-sm"> {{ item.get_discounted_price }}UAH </li>
